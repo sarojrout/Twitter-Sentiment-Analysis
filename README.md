@@ -1,11 +1,9 @@
-#
-chmod +x submit.sh
-chmod +x sbt/sbt
+1. How to package
 
-# package
 ./sbt/sbt assembly
 
-# update env.sh with path to Spark home directory and Twitter application keys
+2. update env.sh with path to Spark home directory and Twitter application keys
 
-# to submit your streaming app.
+3. Run the streaming app.
+
 ./submit.sh
